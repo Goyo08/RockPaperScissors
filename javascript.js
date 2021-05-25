@@ -9,7 +9,7 @@ function playRound(playerSelection, computerSelection) {
     if ((playerSelection == "rock" && computerSelection == "scissors") || (playerSelection == "scissors" && computerSelection == "paper") || (playerSelection == "paper" && computerSelection == "rock")) {
         return `You Win! ${playerSelection} beats ${computerSelection}`;
     } else if (playerSelection == computerSelection) {
-        return "Its a tie! Play Again";
+        return `Its a tie! Play Again (${computerSelection})`;
     } else if (playerSelection !== "rock" || "paper" || "scissors") {
         return "Please select Rock, Paper or Scissors."
     } else {
