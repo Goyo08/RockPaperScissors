@@ -20,4 +20,4 @@ function playRound(playerSelection, computerSelection) {
 const playerInput = prompt('Coloca tu juguda aca');
 const playerSelection = playerInput.toLowerCase();
 const computerSelection = computerPlay();
-console.log(playRound(playerSelection, computerSelection));
+playRound(playerSelection, computerSelection);
